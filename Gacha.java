@@ -5,15 +5,15 @@ public class Gacha {
         System.out.printf("Congrats! You got: %.3f \n", rand);
 
         if (rand >= 5){
-            System.out.println("Anda menang Mercedes A-Class");
+            System.out.println("You won a Mercedes AMG W11, used by Sir Lewis Hamilton himself!");
         }
 
         else if (Math.round(rand) == 5){
-            System.out.println("Anda menang Mercedes AMG W11");
+            System.out.println("You won a McLaren MCL39, used by Lando Norris.");
         }
 
         else{
-            System.out.println("Anda menang Mercedes TransJakarta");
+            System.out.println("You won a Ferrari SF-25, the P6 and P7 finishers.");
         }
     }
 }
