@@ -13,7 +13,7 @@ public class Gacha {
         }
 
         else{
-            System.out.println("You won a Ferrari SF-25, the P6 and P7 finishers.");
+            System.out.println("You won a Ferrari SF-25, the P6 and P7 finishers used by... Sir Lewis Hamilton?!.");
         }
     }
 }
