@@ -4,16 +4,16 @@ public class Gacha {
 
         System.out.printf("Congrats! You got: %.3f \n", rand);
 
-        if (rand >= 5){
-            System.out.println("Anda menang asopdjasoiasjdo!");
+        if (rand >= 0 && rand <= 6) {
+            System.out.println("You won a brand new Volkswagen Golf!");
         }
 
-        else if (Math.round(rand) == 5){
-            System.out.println("asdas.");
+        else if (rand > 6 && rand <= 9) {
+            System.out.println("You won a brand new McLaren 720S!");
         }
 
-        else{
-            System.out.println("asdasdiasidasd?!.");
+        else if (rand > 9) {
+            System.out.println("You won a used Mercedes-AMG W11, the championship winning car from the 2020 FIA Formula One World Championship, driven by Sir Lewis Hamilton himself!");
         }
     }
 }
